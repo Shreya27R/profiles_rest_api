@@ -607,4 +607,11 @@ Welcome to [1mUbuntu 18.04.6 LTS[0m!
 
 Ubuntu 18.04.6 LTS ubuntu-bionic ttyS0
 
-ubuntu-bionic login: 
+ubuntu-bionic login: [17648.525825] INFO: rcu_sched self-detected stall on CPU
+[17648.526230] INFO: rcu_sched self-detected stall on CPU
+[17648.529271] 	0-...!: (1 ticks this GP) idle=cfe/1/0 softirq=492923/492923 fqs=0 
+[17648.538935] 	
+[17648.538940] 	1-...!: (1 ticks this GP) idle=33a/1/0 softirq=69566/69566 fqs=0 
+[17648.538944] rcu_sched kthread starved for 137259 jiffies! g49607 c49606 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
+[17648.539339] 	 (t=137259 jiffies g=49607 c=49606 q=0)
+[17648.544198] rcu_sched kthread starved for 137259 jiffies! g49607 c49606 f0x0 RCU_GP_WAIT_FQS(3) ->state=0x402 ->cpu=1
