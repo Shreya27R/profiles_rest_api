@@ -9,6 +9,7 @@ router = DefaultRouter()
 router.register("hello-viewset",views.HelloViewSet,base_name='hello-viewset')
 #register view set
 router.register('profile',views.UserProfileViewSet)
+router.register('feed',views.UserProfileFeedViewSet)
 
 
 
